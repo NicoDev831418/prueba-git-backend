@@ -8,5 +8,9 @@ public class Main {
         var name = entrada.nextLine();
         persona.setName(name);
         System.out.println("Ahaaaaa...con que te llamas " + persona.getName());
+        System.out.println("y cuantos años tienes");
+        var age= entrada.nextInt();
+        persona.setAge(age);
+
     }
 }
