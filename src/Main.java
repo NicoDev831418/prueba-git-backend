@@ -12,5 +12,6 @@ public class Main {
         var age= entrada.nextInt();
         persona.setAge(age);
         System.out.println("Ahaaa... y tienes  " + persona.getAge());
+        System.out.println("Ahaaa... y tienes  " + persona.getAge());
     }
 }
