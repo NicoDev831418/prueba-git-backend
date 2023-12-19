@@ -1,5 +1,12 @@
+import java.util.Scanner;
+
 public class Main {
+    public static Scanner entrada = new Scanner(System.in);
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Persona persona = new Persona();
+        System.out.println("Hello github!..quien esta de ese lado?");
+        var name = entrada.nextLine();
+        persona.setName(name);
+        System.out.println("Ahaaaaa...con que te llamas " + persona.getName());
     }
 }
