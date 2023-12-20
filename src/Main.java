@@ -17,5 +17,7 @@ public class Main {
         var surname = entrada.nextLine();
         persona.setSurname(surname);
         System.out.println(" ahaaaa ...eres de apellido " + persona.getSurname());
+        System.out.println(" ahaaaa ...eres de apellido " + persona.getSurname());
+
     }
 }
