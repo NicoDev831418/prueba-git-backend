@@ -1,6 +1,7 @@
 public class Persona {
     private String name;
     private int age;
+    private String surname;
 
 
     public Persona() {
@@ -14,9 +15,10 @@ public class Persona {
         this.age = age;
     }
 
-    public Persona(String name, int age) {
+    public Persona(String name, int age, String surname) {
         this.name = name;
         this.age = age;
+        this.surname = surname;
     }
 
     public String getName() {
@@ -25,5 +27,12 @@ public class Persona {
 
     public void setName(String name) {
         this.name = name;
+    }
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 }
