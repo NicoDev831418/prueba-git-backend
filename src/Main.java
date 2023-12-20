@@ -18,6 +18,6 @@ public class Main {
         persona.setSurname(surname);
         System.out.println(" ahaaaa ...eres de apellido " + persona.getSurname());
         System.out.println(" ahaaaa ...eres de apellido " + persona.getSurname());
-
+        System.out.println(" ahaaaa ...eres de apellido " + persona.getSurname());
     }
 }
